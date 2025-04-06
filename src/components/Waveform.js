@@ -71,7 +71,7 @@ export default function Waveform({ audioUrl }) {
 
   return (
     <div className="flex flex-col items-center">
-      <div ref={containerRef} className="w-full my-4" />
+      <div ref={containerRef} className="w-full h-[200px] max-w-full my-4 overflow-hidden" />
       <button
         onClick={togglePlay}
         className="mt-2 px-4 py-2 bg-purple-600 text-white rounded hover:bg-purple-700"
