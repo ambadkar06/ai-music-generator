@@ -10,16 +10,22 @@
   },
   "dependencies": {
     "@leap-ai/sdk": "^1.1.4",
+    "@tsparticles/engine": "^3.8.1",
+    "@tsparticles/react": "^3.0.0",
+    "@tsparticles/slim": "^3.8.1",
     "next": "15.2.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "three": "^0.175.0",
     "wavesurfer.js": "^7.9.4"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
+    "autoprefixer": "^10.4.21",
     "eslint": "^9",
     "eslint-config-next": "15.2.4",
-    "tailwindcss": "^4"
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.1.3"
   }
 }

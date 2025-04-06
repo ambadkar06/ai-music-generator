@@ -62,7 +62,6 @@ export default function Waveform({ audioUrl }) {
     };
   }, [audioUrl]);
   
-
   const togglePlay = () => {
     if (waveSurferRef.current) {
       waveSurferRef.current.playPause();
@@ -82,3 +81,5 @@ export default function Waveform({ audioUrl }) {
     </div>
   );
 }
+
+
